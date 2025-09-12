@@ -20,3 +20,21 @@ nav{
     padding: 8px 12px;
     border-radius: 25px;
 }
+.nav-middle .search-box input{
+    border: 0;
+    outline: 0;
+    width: 400px;
+    background: transparent;
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+.nav-right img{
+    width: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+}
