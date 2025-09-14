@@ -6,9 +6,9 @@ import Video from './pages/Video/Video'
 import { Route, Routes } from 'react-router-dom'
 
 
-const [sidebar , setSidebar] = React.useState(true);
 
 const App = () => {
+  const [sidebar , setSidebar] = React.useState(true);
   return (
     <div>
       <Navbar setSidebar={setSidebar} />
